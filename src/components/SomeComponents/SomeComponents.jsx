@@ -1,19 +1,14 @@
 import React, {Component} from 'react';
-import "./SomeComponents.scss"
-import Button from "../Button/Button";
+import "./SomeComponents.scss";
 
 
 
 class SomeComponents extends Component {
     render() {
 
-        const {buttonName} = this.props
-
-
         return (
             <>
-                <h1>Hello world and React!</h1>
-                <Button action={"action"} name={buttonName}/>
+                <h1>{this.props.text}</h1>
             </>
         );
     }
