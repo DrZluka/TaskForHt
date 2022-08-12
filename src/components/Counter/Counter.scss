@@ -1,5 +1,4 @@
 
-
 bottom {
   align-items: center;
   appearance: none;
@@ -43,4 +42,9 @@ bottom:hover {
 bottom:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+.Counter{
+  margin-top: 50px;
+  border: 2px solid black;
 }
