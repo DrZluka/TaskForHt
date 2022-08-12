@@ -20,8 +20,8 @@ class Counter extends Component {
             <div className="Counter">
                 <p>Counter</p>
                 <p>{this.state.value}</p>
-                <bottom onClick={()=>this.upCount()}>+1</bottom>
-                <bottom onClick={()=>this.countDown()}>-1</bottom>
+                <botton onClick={()=>this.upCount()}>+1</botton>
+                <botton onClick={()=>this.countDown()}>-1</botton>
             </div>
         );
     }
