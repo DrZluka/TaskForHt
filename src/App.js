@@ -3,8 +3,8 @@ import SomeComponents from "./components/SomeComponents/SomeComponents";
 import UserList from "./components/UserList/UserList";
 import Counter from "./components/Counter/Counter";
 import LifeCycle from "./components/LifeCycle/LifeCycle";
+import Page from "./components/Page/Page";
 
-const render = true;
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <UserList users={["Roman", "Grigoriy", "Michail", "Feodor", "Margaritta"]}/>
         <Counter/>
         <LifeCycle/>
+        <Page/>
 
     </>
   );
