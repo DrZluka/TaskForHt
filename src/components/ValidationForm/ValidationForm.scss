@@ -1,0 +1,19 @@
+.form-group {
+  margin: 12px 4px;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group label.inline {
+  display: inline-block;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}

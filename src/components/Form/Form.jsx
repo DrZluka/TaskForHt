@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SomeInput from "../SomeInput/SomeInput";
 import FormOfNumber from "../FormOfNumber/FormOfNumber";
+import ValidationForm from "../ValidationForm/ValidationForm";
 
 class Form extends Component {
 
@@ -17,6 +18,7 @@ class Form extends Component {
             <form action="">
                 <SomeInput stateHandler={(e)=> this.inputHandler(e)} />
                 <FormOfNumber/>
+                <ValidationForm/>
             </form>
         );
     }
