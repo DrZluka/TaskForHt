@@ -1,5 +1,7 @@
 export const iconTypes = {
     addNewTask: 'addNewTask',
     deleteTask: 'deleteTask',
-    taskDone: 'taskDone'
+    taskDone: 'taskDone',
+    editTask: 'editTask',
+    saveEditTask: 'saveEditTask'
 }

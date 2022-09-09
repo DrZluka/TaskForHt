@@ -1,0 +1,14 @@
+.divItem{
+  display: inline-block;
+  padding-right: 50px;
+}
+.inputStyles{
+  width: 91%;
+}
+.buttonPlace{
+  align-items: end;
+}
+.mainDiv{
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr
+}

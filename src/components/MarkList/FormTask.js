@@ -10,18 +10,16 @@ export class FormTask extends Component {
         this.inputRef = React.createRef();
     }
 
-    componentDidMount() {
-        this.inputRef.current.focus();
-    }
 
-    onSubmot = (event) => {
-        event.preventDefault();
+
+    onSubmit = (e) => {
+        e.preventDefault();
         const newItemValue = this.inputRef.current.value;
 
         if(!newItemValue){return}
 
-        const trimvalue = newItemValue.trim();
-        if (trimvalue.length){
+        const trimValue = newItemValue.trim();
+        if (trimValue.length){
             this.props.addItem({value: newItemValue, uid: Date.now()});
             this.formRef.current.reset();
         }
@@ -30,7 +28,7 @@ export class FormTask extends Component {
 
     render() {
         return (
-            <form ref={this.formRef} onSubmit={this.onSubmot}>
+            <form ref={this.formRef} onSubmit={this.onSubmit}>
                 <div className={styles.formContent}>
                     <input type="text" ref={this.formRef} placeholder="add new mark" className={styles.inputField}/>
                     <Button type="submit" iconType={iconTypes.addNewTask} className={styles.submitBtn}>add</Button>

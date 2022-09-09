@@ -9,10 +9,10 @@ import Page from "./components/Page/Page";
 function App() {
   return (
     <>
-        <SomeComponents text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, quidem."}/>
+       {/* <SomeComponents text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, quidem."}/>
         <UserList users={["Roman", "Grigoriy", "Michail", "Feodor", "Margaritta"]}/>
-        <Counter/>
-        <LifeCycle/>
+        <Counter/>*/}
+
         <Page/>
 
     </>
